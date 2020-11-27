@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:ital@1&display=swap" 
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Curso Java</title>
+</head>
+<body>
+    <div class="circle"></div>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png"alt="logo">
+            <h4 class="logo" href="#">Java</h4>
+        </div>
+        <nav>
+            <u1 class="nav-links">
+                <li ><a class="nav-link" href="#">Historia</a></li>
+                <li ><a class="nav-link" href="#">Programacion</a></li>
+                <li ><a class="nav-link" href="#">Acerca de</a></li>
+        </nav>
+        <div class="cart">
+                <li><img src="dot-full.svg"  href="#"></li>
+                <li><img src="dot-full.svg"  href="#"></li>
+
+
+        </div>
+    </header>
+
+    <main>
+        <section class="presentation">
+            <div class="introducion">
+                <div class="intro-text">
+                    <h1>¡HOLA MUNDO!</h1>
+                    <p>Java es un lenguaje de programación de propósito general, es decir, que sirve para muchas cosas, para web, servidores, aplicaciones móviles, videojuegos, sirve un poco para todo. Java también es un lenguaje orientado a objetos, y con un fuerte tipado de variables.</p>
+                </div>
+                <div class="cta">
+                    <button class="cta-select" >
+                    <a href="https://kikopalomares.com/%E2%98%95-que-es-java-el-mejor-lenguaje-de-programacion/">
+                    Leer mas...</a></button>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="Holamundo.png" class="java">
+            </div>
+        </div>
+            <ul class="java-select">
+                <li><img src="Holamundo.png" onclick="imgSlider('Holamundo.png')"></li>
+                <li><img src="java1.png" onclick="imgSlider('java1.png')"></li>
+                <li><img src="java2.png" onclick="imgSlider('java2.png')"></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector(".java").src=anything;
+            }   
+        </script>
+    </main>
+</body>
+</html>
